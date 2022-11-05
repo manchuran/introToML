@@ -1,3 +1,8 @@
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 def load_data(filename, load2=True, load3=True):
     """Loads data for 2's and 3's
     Inputs:
